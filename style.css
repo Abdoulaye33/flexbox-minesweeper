@@ -1,0 +1,32 @@
+.container {
+    margin: 80px 600px 0px 300px;
+    padding: 0px 0px 300px 0px;
+    border: 10px solid #c5c5c5;
+    border-style: groove;
+}
+.ligne {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.blue {
+    border-bottom: dotted;
+    border-right: dotted;
+    border-left: dotted;
+    height: 32px;
+    width: 48px;
+    text-align: center;
+    text-decoration-color: blue;
+}
+img {
+    height: 32px;
+    width: 50px;
+
+    border-bottom: dotted;
+}
+.empty {
+    border-bottom: dotted;
+    padding: 10px 10px 10px 10px;
+    height: 12px;
+    width: 20px;
+}
